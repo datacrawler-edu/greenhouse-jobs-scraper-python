@@ -1,0 +1,145 @@
+{
+  "repository": {
+    "name": "greenhouse-jobs-scraper-python",
+    "description": "Greenhouse job board API examples for Python, JavaScript and cURL. Collect company vacancies and export existing job data to CSV.",
+    "homepage": "https://apify.com/datascraperes/greenhouse-jobs-scraper?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "Greenhouse Jobs Scraper",
+    "id": "datascraperes/greenhouse-jobs-scraper",
+    "storeUrl": "https://apify.com/datascraperes/greenhouse-jobs-scraper",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~greenhouse-jobs-scraper",
+    "description": "Collect public job postings from specified Greenhouse company board URLs or tokens."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/greenhouse-jobs-scraper?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "boardUrls",
+      "inputLabel": "Greenhouse board URLs or tokens",
+      "inputSummary": "Enter public Greenhouse company board URLs or tokens, then choose job limits.",
+      "exportFormats": [
+        "JSON",
+        "CSV"
+      ]
+    },
+    "api": {
+      "enabled": true,
+      "examples": [
+        "cURL",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "Greenhouse jobs scraper Python",
+    "secondaryKeywords": [
+      "Greenhouse job board API examples",
+      "Greenhouse jobs CSV export",
+      "Greenhouse job descriptions"
+    ],
+    "topics": [
+      "greenhouse",
+      "jobs",
+      "job-board",
+      "apify",
+      "python",
+      "recruiting-data",
+      "api-examples"
+    ],
+    "longTailIntents": [
+      "Collect Greenhouse jobs from multiple company boards with Python",
+      "Export an existing Greenhouse jobs Dataset to CSV",
+      "Read Greenhouse job descriptions as text and HTML"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/collect_jobs.py",
+      "examples/python/batch_boards.py",
+      "examples/python/export_jobs_csv.py"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "Pay per unique job confirmed in the Dataset. Rates depend on the Apify tier; see the live Pricing tab.",
+    "unit": "one unique job confirmed in the Dataset",
+    "price": "$0.75-$1.00 per 1,000 job results, depending on Apify tier"
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/greenhouse-jobs-scraper-python",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/greenhouse-jobs-scraper-python",
+    "githubToActorUrl": "https://apify.com/datascraperes/greenhouse-jobs-scraper?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v0.1.0",
+      "title": "Greenhouse job board integration examples"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": [
+      "views",
+      "uniqueVisitors",
+      "clones",
+      "referrers",
+      "popularContent"
+    ],
+    "apifySignals": [
+      "users",
+      "runs",
+      "datasetItems",
+      "revenue"
+    ],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/greenhouse-jobs-scraper-python",
+      "Greenhouse jobs scraper Python"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/greenhouse-jobs-scraper-python/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/greenhouse-jobs-scraper?fpr=edudata"
+  }
+}

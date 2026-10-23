@@ -1,0 +1,9 @@
+{
+  "boardUrls": [
+    "airbnb"
+  ],
+  "includeContent": true,
+  "maxJobsPerBoard": 3,
+  "maxTotalJobs": 3,
+  "continueOnError": true
+}

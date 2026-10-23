@@ -1,0 +1,8 @@
+{
+  "name": "greenhouse-job-board-examples",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  }
+}
